@@ -1,0 +1,115 @@
+body {
+  background-color: #c3cfe2;
+}
+
+.fa-laptop-code::before {
+  content: "\f5fc";
+  display: inline-block;
+  text-rendering: auto;
+  padding: 8px 20px 8px 8px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fa-twitter::before {
+  content: "\f099";
+  display: inline-block;
+  text-rendering: auto;
+  padding: 8px 20px 8px 8px;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fa-linkedin-in::before {
+  content: "\f0e1";
+  display: inline-block;
+  text-rendering: auto;
+  padding: 8px 20px 8px 8px;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fa-facebook-f::before {
+  content: "\f39e";
+  display: inline-block;
+  text-rendering: auto;
+  padding: 8px 20px 8px 8px;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fa-github::before {
+  content: "\f09b";
+  display: inline-block;
+  text-rendering: auto;
+  padding: 8px 20px 8px 8px;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: "a b" "c d";
+}
+
+.grid ul {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.grid ul li {
+  display: block;
+  position: relative;
+  width: 210px;
+  right: -184px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.grid ul li:hover {
+  right: -10px;
+}
+
+.grid ul a {
+  display: inline-block;
+  color: white;
+}
+
+.grid li:nth-child(1) {
+  background-color: #e17b77;
+}
+
+.grid li:nth-child(2) {
+  background-color: #00aced;
+}
+
+.grid li:nth-child(3) {
+  background-color: #007bb6;
+}
+
+.grid li:nth-child(4) {
+  background-color: #3b5998;
+}
+
+.grid li:nth-child(5) {
+  background-color: #333;
+}
+/*# sourceMappingURL=style.css.map */

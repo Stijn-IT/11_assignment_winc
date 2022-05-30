@@ -1,0 +1,91 @@
+body {
+  background-color: #c3cfe2;
+}
+
+.fa-laptop-code::before {
+  content: "\f5fc";
+  display: inline-block;
+  text-rendering: auto;
+  padding: 8px 20px 8px 8px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fa-twitter::before {
+  content: "\f099";
+  display: inline-block;
+  text-rendering: auto;
+  padding: 8px 20px 8px 8px;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fa-linkedin-in::before {
+  content: "\f0e1";
+  display: inline-block;
+  text-rendering: auto;
+  padding: 8px 20px 8px 8px;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fa-facebook-f::before {
+  content: "\f39e";
+  display: inline-block;
+  text-rendering: auto;
+  padding: 8px 20px 8px 8px;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+.fa-github::before {
+  content: "\f09b";
+  display: inline-block;
+  text-rendering: auto;
+  padding: 8px 20px 8px 8px;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "a b"
+    "c d";
+  ul {
+    grid-area: d;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    li {
+      display: block;
+      position: relative;
+      width: 210px;
+      right: -184px;
+      transition-duration: 1s;
+      &:hover {
+        right: -10px;
+      }
+    }
+    a {
+      display: inline-block;
+      color: white;
+    }
+  }
+  li:nth-child(1) {
+    background-color: #e17b77;
+  }
+  li:nth-child(2) {
+    background-color: #00aced;
+  }
+  li:nth-child(3) {
+    background-color: #007bb6;
+  }
+  li:nth-child(4) {
+    background-color: #3b5998;
+  }
+  li:nth-child(5) {
+    background-color: #333;
+  }
+}
